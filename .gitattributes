@@ -1,0 +1,6 @@
+*.html linguist-detectable=false -merge -diff
+*.htm inguist-detectable=false -merge -diff
+*.min.js linguist-detectable=false -merge -diff
+*.min.css linguist-detectable=false -merge -diff
+docs/* linguist-detectable=false -merge -diff
+renv/* linguist-detectable=false

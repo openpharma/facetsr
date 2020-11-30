@@ -1,0 +1,10 @@
+destination: docs
+home:
+  title: facetsR wrapper
+  description: Discovering your data with facets tool in R
+
+repo:
+  url:
+    home: https://github.com/openpharma/facetsr/
+    source: https://github.com/openpharma/facetsr/blob/master/
+    issue: https://github.com/openpharma/facetsr/issues/

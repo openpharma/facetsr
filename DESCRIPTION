@@ -1,0 +1,24 @@
+Package: facetsr
+Type: Package
+Title: facets R wrapper
+Version: 0.1.1
+Author: c(person('Adam', 'Forys', email = 'adam.forys@contractors.roche.com', role = c('cre', 'aut')))
+Maintainer: The package maintainer <adam.forys@contractors.roche.com>
+Description: The goal of facetsr is to create an R wrapper for facets.
+    So use facets to explore your dataset.
+License: MIT + file LICENSE
+RoxygenNote: 7.1.0
+URL: https://github.com/openpharma/facetsr
+BugReports: https://github.com/openpharma/facetsr/issues
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat,
+    lintr
+Imports: 
+    jsonlite,
+    glue,
+    utils,
+    htmltools,
+    htmlwidgets,
+    shiny

@@ -1,0 +1,30 @@
+---
+title: "facets_rmd"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(facetsr)
+```
+
+## R Markdown && Facets
+
+This is an R Markdown document that using `facetsr` package.
+
+**Note** The facets are loaded online so the document will not work oflline. 
+
+### Facets dive
+
+```{r facets_dive}
+facets_dive(datasets::airquality)
+```
+
+
+### Facets overview
+
+**Note:** this example is not working yet
+
+```{r facets_overview}
+facets_overview(iris)
+```
